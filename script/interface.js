@@ -19,7 +19,8 @@ document.getElementById("trial").addEventListener('click',function(){
 })
 
 document.getElementById("info").addEventListener('click',function(){
-    jstyper.type(s,["created by AjitsinghKamal","I'm up for hire "])
+    jstyper.type(s,["created by AjitsinghKamal","I'm up for hire "]);
+    editor.value =  "created by AjitsinghKamal\nI'm up for hire";
 })
 
 document.getElementById("fast").addEventListener('click',function(){

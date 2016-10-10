@@ -60,7 +60,7 @@ body{
     box-sizing: border-box;
     font-family: 'Paytone One', sans-serif;
     color:#F4E3B2;
-    width:32vh;
+    width:32.5vh;
      background-color:#CF5C36;
     font-size:32px;
     
@@ -177,13 +177,19 @@ img{
 
 #control{
    position:absolute;
-    right:21vw;
-    
-    bottom:12vh;
+    right:15vw;
+    font-family: 'Paytone One', sans-serif;
+    color:#CF5C36;
+    font-size: 22px;
+    bottom:5vh;
    
     
 }
 
+
+.clickable{
+  cursor: pointer;
+}
 .clickable:active{
 opacity: 0.7;
 }

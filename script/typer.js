@@ -62,7 +62,7 @@ var jstyper=(function(){
     function typeIt(){
         if(strIndex==-1){
             strIndex+=1;
-            clearAndRestartInterval(1000);
+            clearAndRestartInterval(700);
             return;
         }
         
